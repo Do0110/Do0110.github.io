@@ -427,8 +427,14 @@ a:hover {
   }
 }
 
+.main-chara_item {
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+
 @media (min-width: 1000px) {
   .main-chara_item_1 {
+    transform: translate(-500px, 0);
     height: 457px;
     display: flex;
   }
@@ -469,6 +475,7 @@ a:hover {
   .main-chara_item_1 {
     display: flex;
     flex-direction: column-reverse;
+    transform: translate(-32px, 0);
   }
   .main-chara_item_1_pic {
     width: 100%;
@@ -507,6 +514,7 @@ a:hover {
 
 @media (min-width: 1000px) {
   .main-chara_item_2 {
+    transform: translate(500px, 0);
     height: 457px;
     display: flex;
     justify-content: flex-start;
@@ -550,6 +558,7 @@ a:hover {
   .main-chara_item_2 {
     display: flex;
     flex-direction: column-reverse;
+    transform: translate(32px, 0);
   }
   .main-chara_item_2_pic {
     width: 100%;
@@ -589,6 +598,7 @@ a:hover {
 
 @media (min-width: 1000px) {
   .main-chara_item_3 {
+    transform: translate(-500px, 0);
     height: 453px;
     display: flex;
     margin-top: 8px;
@@ -631,6 +641,7 @@ a:hover {
   .main-chara_item_3 {
     display: flex;
     flex-direction: column-reverse;
+    transform: translate(-32px, 0);
   }
   .main-chara_item_3_pic {
     width: 100%;
@@ -671,6 +682,7 @@ a:hover {
 
 @media (min-width: 1000px) {
   .main-chara_item_4 {
+    transform: translate(500px, 0);
     height: 457px;
     display: flex;
     justify-content: flex-start;
@@ -714,6 +726,7 @@ a:hover {
   .main-chara_item_4 {
     display: flex;
     flex-direction: column-reverse;
+    transform: translate(32px, 0);
   }
   .main-chara_item_4_pic {
     width: 100%;
