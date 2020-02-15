@@ -71,6 +71,12 @@ a:hover {
   .header {
     align-items: center;
   }
+  .header-logo {
+    margin-left: 10.4%;
+  }
+  .header-logo img {
+    width: 272px;
+  }
 }
 
 @media (max-width: 999px) {
@@ -84,20 +90,12 @@ a:hover {
     left: 0;
     z-index: 30;
   }
-}
-
-@media (min-width: 1000px) {
-  .header-logo {
-    margin-left: 10.4%;
-    width: 272px;
-  }
-}
-
-@media (max-width: 999px) {
   .header-logo {
     margin-left: 6%;
-    width: 150px;
     align-self: center;
+  }
+  .header-logo img {
+    width: 150px;
   }
 }
 
@@ -283,19 +281,19 @@ a:hover {
     width: 385px;
     align-self: center;
   }
-  .main-top_txt h1 {
+  .main-top_txt h2 {
     writing-mode: vertical-rl;
     font-size: 40px;
     color: #707070;
   }
-  .main-top_txt h1:first-child {
+  .main-top_txt h2:first-child {
     position: absolute;
     top: 60px;
     left: 205px;
     z-index: 10;
     letter-spacing: 28px;
   }
-  .main-top_txt h1:nth-child(even) {
+  .main-top_txt h2:nth-child(even) {
     position: absolute;
     top: 80px;
     left: 115px;
@@ -318,19 +316,19 @@ a:hover {
     width: 350px;
     align-self: center;
   }
-  .main-top_txt h1 {
+  .main-top_txt h2 {
     writing-mode: vertical-rl;
     font-size: 24px;
     color: #707070;
   }
-  .main-top_txt h1:first-child {
+  .main-top_txt h2:first-child {
     position: absolute;
     top: 55px;
     left: 175px;
     z-index: 10;
     letter-spacing: 25px;
   }
-  .main-top_txt h1:nth-child(even) {
+  .main-top_txt h2:nth-child(even) {
     position: absolute;
     top: 67px;
     left: 135px;
@@ -374,7 +372,7 @@ a:hover {
 
 @media (min-width: 1000px) {
   .main-chara_tit {
-    width: 150px;
+    width: 160px;
   }
 }
 
@@ -385,21 +383,22 @@ a:hover {
   }
 }
 
-.main-chara_tit h2 {
+.main-chara_tit h3 {
   border-bottom: 1px dotted #653F36;
   text-align: center;
 }
 
 @media (min-width: 1000px) {
-  .main-chara_tit h2 {
+  .main-chara_tit h3 {
     text-align: center;
-    margin-bottom: 44px;
+    margin-bottom: 42px;
     letter-spacing: 1px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 999px) {
-  .main-chara_tit h2 {
+  .main-chara_tit h3 {
     font-size: 20px;
     margin-bottom: 33px;
   }
@@ -426,15 +425,6 @@ a:hover {
   .main-chara_list li:nth-child(even) {
     flex-direction: row-reverse;
   }
-}
-
-.main-chara_item {
-  opacity: 0;
-  transition: all 0.5s ease 0.5s;
-}
-
-.main-chara_item_1 {
-  transform: translate(-500px, 0);
 }
 
 @media (min-width: 1000px) {
@@ -513,10 +503,6 @@ a:hover {
     font-size: 16px;
     line-height: 27px;
   }
-}
-
-.main-chara_item_2 {
-  transform: translate(500px, 0);
 }
 
 @media (min-width: 1000px) {
@@ -601,10 +587,6 @@ a:hover {
   }
 }
 
-.main-chara_item_3 {
-  transform: translate(-500px, 0);
-}
-
 @media (min-width: 1000px) {
   .main-chara_item_3 {
     height: 453px;
@@ -685,10 +667,6 @@ a:hover {
     font-size: 16px;
     line-height: 26px;
   }
-}
-
-.main-chara_item_4 {
-  transform: translate(500px, 0);
 }
 
 @media (min-width: 1000px) {
@@ -810,7 +788,7 @@ a:hover {
     padding-top: 18px;
     padding-left: 1px;
   }
-  .main-news_item h3 {
+  .main-news_item h4 {
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 5px;
@@ -846,7 +824,7 @@ a:hover {
     margin-bottom: 12px;
     padding-top: 16px;
   }
-  .main-news_item h3 {
+  .main-news_item h4 {
     font-size: 20px;
     margin: 0px auto 13px;
     line-height: 33px;
@@ -883,10 +861,12 @@ a:hover {
     align-content: flex-start;
   }
   .main-access_cont_left_logo {
-    height: 38px;
     border-bottom: 1px dotted #653F36;
-    padding-right: 306px;
+    width: 100%;
     margin-bottom: 17px;
+  }
+  .main-access_cont_left_logo img {
+    height: 32px;
   }
   .main-access_cont_left a {
     display: inline-block;
@@ -906,17 +886,17 @@ a:hover {
     margin-top: 0px;
     margin-left: 24px;
   }
-  .main-access_cont_left_item h6 {
+  .main-access_cont_left_item_tell {
     font-size: 25px;
     font-weight: normal;
     line-height: 25px;
     letter-spacing: 2.5px;
   }
-  .main-access_cont_left_item h6 span {
+  .main-access_cont_left_item_tell span {
     margin-right: 7px;
     font-size: 17px;
   }
-  .main-access_cont_left_item p {
+  .main-access_cont_left_item_time {
     margin-top: -3px;
     margin-left: 28px;
     font-size: 12.5px;
@@ -924,6 +904,7 @@ a:hover {
   .main-access_cont_left table {
     margin-top: 17px;
     margin-left: 3px;
+    width: 100%;
     border: 2px solid #653F36;
   }
   .main-access_cont_left table th, .main-access_cont_left table td {
@@ -938,6 +919,11 @@ a:hover {
     color: #653F36;
     font-size: 25px;
     letter-spacing: 1px;
+    border: 1px solid #653F36;
+  }
+  .main-access_cont_left table .table-head {
+    height: 45px;
+    background-color: #653F36;
   }
   .main-access_cont_left table .time {
     font-size: 18px;
@@ -947,8 +933,15 @@ a:hover {
     font-weight: normal;
     font-size: 18px;
   }
-  .main-access_cont_left table .bottom {
+  .main-access_cont_left table .table-top {
+    height: 68px;
+  }
+  .main-access_cont_left table .table-bottom {
+    height: 68px;
     border-bottom: 2px solid #653F36;
+  }
+  .main-access_cont_left table .th-head {
+    width: 175px;
   }
   .main-access_cont_right {
     display: flex;
@@ -1028,12 +1021,14 @@ a:hover {
   }
   .main-access_cont_left_logo {
     display: block;
-    width: 150px;
-    height: 100%;
     border-bottom: 1px dotted #653F36;
-    padding-bottom: 9px;
+    padding-bottom: 3px;
     padding-right: 200px;
     margin-bottom: 12px;
+    width: 100%;
+  }
+  .main-access_cont_left_logo img {
+    height: 30px;
   }
   .main-access_cont_left a {
     display: inline-block;
@@ -1052,7 +1047,7 @@ a:hover {
     margin-right: 5px;
     font-size: 14px;
   }
-  .main-access_cont_left_item h6 {
+  .main-access_cont_left_item_tell {
     text-align: center;
     font-size: 19px;
     letter-spacing: 1px;
@@ -1060,11 +1055,11 @@ a:hover {
     font-weight: normal;
     font-family: "YuGothic";
   }
-  .main-access_cont_left_item h6 span {
+  .main-access_cont_left_item_tell span {
     margin-right: 5px;
     font-size: 14px;
   }
-  .main-access_cont_left_item p {
+  .main-access_cont_left_item_time {
     font-size: 13px;
     text-align: left;
   }
@@ -1178,12 +1173,20 @@ a:hover {
     z-index: 30;
   }
   .contact-top_btn {
-    text-align: right;
+    padding-bottom: 8px;
   }
-  .contact-top_btn a img {
+  .contact-top_btn a {
+    display: block;
     width: 32px;
     margin-right: 28.2px;
-    margin-bottom: 7px;
+    margin-left: auto;
+  }
+  .contact-top_btn a p {
+    width: 32px;
+    height: 32px;
+  }
+  .contact-top_btn a p img {
+    width: 32px;
   }
   .contact-menu {
     background-color: white;
@@ -1196,9 +1199,13 @@ a:hover {
   }
   .contact-menu_list li {
     text-align: center;
+    height: 41.69px;
+    margin-bottom: 9px;
   }
   .contact-menu_list li a {
-    height: 38px;
+    display: block;
+    height: 41.69px;
+    width: 100%;
   }
   .contact-menu_list li i {
     font-size: 19px;
@@ -1210,36 +1217,36 @@ a:hover {
   }
   .contact-menu_item1 {
     width: 35%;
-    margin-bottom: 9px;
+  }
+  .contact-menu_item1 a {
+    padding-top: 5px;
   }
   .contact-menu_item1 a i {
     font-size: 18px;
-    margin-left: 7px;
-    margin-bottom: 5.5px;
+    padding-left: 7px;
   }
   .contact-menu_item1 a p {
-    letter-spacing: 1px;
-    margin-left: 8px;
+    padding-left: 8px;
   }
   .contact-menu_item2 {
     width: 33%;
-    margin-bottom: 11px;
     border-left: 1px solid #653F36;
     border-right: 1px solid #653F36;
   }
   .contact-menu_item2 a i {
-    margin-bottom: 8.5px;
+    margin-bottom: 6px;
+  }
+  .contact-menu_item2 a p {
+    letter-spacing: 1px;
   }
   .contact-menu_item3 {
     width: 32%;
-    margin-bottom: 9px;
   }
   .contact-menu_item3 a i {
-    margin-bottom: 8.5px;
+    margin-bottom: 6px;
     padding-left: 8px;
   }
   .contact-menu_item3 a p {
-    letter-spacing: 0.5px;
     margin-left: 7px;
   }
 }
@@ -1269,23 +1276,26 @@ a:hover {
     margin-top: 19px;
     margin-left: auto;
     margin-right: 8.5px;
-    color: #5F2201;
     text-align: center;
   }
-  .modal-menu_ret i {
+  .modal-menu_ret a {
+    color: #5F2201;
+  }
+  .modal-menu_ret a i {
     font-weight: bold;
     font-size: 25px;
     padding-bottom: 7px;
   }
-  .modal-menu_ret p {
+  .modal-menu_ret a p {
     font-size: 13px;
-  }
-  .modal-menu_list {
-    text-align: center;
   }
   .modal-menu_logo {
     width: 180px;
-    margin-bottom: 34px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .modal-menu_logo img {
+    width: 180px;
   }
   .modal-menu_item1, .modal-menu_item2 {
     margin-bottom: 21px;
