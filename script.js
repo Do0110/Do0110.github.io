@@ -168,7 +168,7 @@ $(function(){
         });
       } else {
         $(this).css({
-          'transform': 'translate(-500,0px)'
+          'transform': 'translate(-32,0px)'
         });
       }
     });
@@ -182,7 +182,7 @@ $(function(){
         });
       } else {
         $(this).css({
-          'transform': 'translate(500px,0)'
+          'transform': 'translate(32px,0)'
         });
       }
     });
