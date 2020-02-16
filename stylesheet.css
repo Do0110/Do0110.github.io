@@ -899,13 +899,13 @@ a:hover {
     margin-top: 0px;
     margin-left: 24px;
   }
-  _::-webkit-full-page-media, _:future, :root.main-access_cont_left_item_tell {
+  .main-access_cont_left_item_tell {
     font-size: 25px;
     font-weight: normal;
     line-height: 25px;
     letter-spacing: 2.5px;
   }
-  _::-webkit-full-page-media, _:future, :root.main-access_cont_left_item_tell span {
+  .main-access_cont_left_item_tell span {
     margin-right: 7px;
     font-size: 17px;
   }
